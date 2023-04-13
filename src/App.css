@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.posts, .detail {
+    width: 50%;
+}
+
+.posts {
+    background-color: bisque;
+}
+
+.post, .detail {
+    padding: 5px;
+}
+
+.post {
+    border: 1px solid gray;
+}
+
+.detail {
+    background-color: cornsilk;
+}
+
+button {
+    background-color: aquamarine;
+    width: 75px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: aqua;
+}
